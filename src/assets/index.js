@@ -10,6 +10,7 @@ import workImgEight from "./work/workImgEight.jpg"
 import blogImgOne from "./blog/blogImgOne.jpg"
 import blogImgTwo from "./blog/blogImgTwo.jpg"
 import blogImgThree from "./blog/blogImgThree.jpg"
+import image from "./blog/image.png"
 
 export { 
     bannerImg,
@@ -23,5 +24,6 @@ export {
     workImgEight,
     blogImgOne,
     blogImgTwo,
-    blogImgThree
+    blogImgThree,
+    image
 };
