@@ -10,23 +10,28 @@ const Education = () => {
       {/* Experience Section */}
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Experience" icon={<MdWork />} />
+
+        <ResumeCard
+          badge="May 2025"
+          title="Intern"
+          subTitle="Leopard Innovation Technology"
+          des="Worked as a web development intern—contributing to real-world client projects using MERN stack technologies."
+        />
+
         <ResumeCard
           badge="2024 - Present"
-          title="Founder & Developer"
-          subTitle="Codenest"
-          des="Building a coding education platform using the MERN stack, focusing on coding tests and learning for students."
+          title="Founder & Full-Stack Developer"
+          subTitle="CodeNest"
+          des="Developing an AI-powered coding platform for colleges with real-time leaderboards and authentication."
         />
+
+       
+
         <ResumeCard
-          badge="2024 - Present"
-          title="Open Source Contributor"
-          subTitle="GitHub"
-          des="Contributing to various open-source projects, enhancing my coding skills and collaborating with the community."
-        />
-        <ResumeCard
-          badge="Ongoing"
+          badge="2022 - Present"
           title="Competitive Programmer"
-          subTitle="CodeChef, LeetCode"
-          des="Solving data structures and algorithm problems regularly to improve problem-solving and coding efficiency."
+          subTitle="LeetCode, CodeChef"
+          des="Solved 400+ DSA problems and actively participating in coding competitions & hackathons."
         />
       </div>
 
@@ -38,23 +43,26 @@ const Education = () => {
       {/* Education Section */}
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Education" icon={<GiGraduateCap />} />
+
         <ResumeCard
-          badge="2022 - 2026"
-          title="B.Tech in Computer Science & Engineering"
-          subTitle="Your College Name"
-          des="Pursuing a degree in Computer Science with a focus on web development, DSA, and ethical hacking."
+          badge="Aug 2022 – Present"
+          title="B.Tech in Computer Engineering (CGPA: 7.3)"
+          subTitle="Sagar Institute of Science Technology & Engineering (RGPV), Bhopal"
+          des="Focused on full-stack development, DSA, and problem-solving. Active in hackathons and coding clubs."
         />
+
         <ResumeCard
-          badge="2020 - 2022"
-          title="Higher Secondary Education"
-          subTitle="Your School Name"
-          des="Completed higher secondary education with a strong foundation in mathematics and computer science."
+          badge="April 2020 – March 2022"
+          title="Senior Secondary (12th) – 70%"
+          subTitle="Central Academy, Basti, U.P."
+          des="Science stream with a strong foundation in mathematics and computer fundamentals."
         />
+
         <ResumeCard
-          badge="2018 - 2020"
-          title="Secondary Education"
-          subTitle="Your School Name"
-          des="Built a passion for coding and problem-solving during my early academic years."
+          badge="April 2018 – March 2020"
+          title="Secondary (10th) – 80%"
+          subTitle="Central Academy, Basti, U.P."
+          des="Discovered interest in computers and technology during early schooling."
         />
       </div>
     </div>
