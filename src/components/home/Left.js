@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { SiYoutubemusic } from "react-icons/si";
 import { FiMail, FiSend } from "react-icons/fi";
+import { BsTelephonePlusFill } from "react-icons/bs";
 import CV from "../../assets/Pawan_Tiwari_Resume.pdf"; // Update with actual resume path
 import { bannerImg } from "../../assets/index"; // Ensure correct image import
 
@@ -83,14 +84,16 @@ const Left = () => {
               Download CV <BsCloudLightningFill />
             </button>
           </a>
-          <a
-            href="https://wa.me/919696734338"
-            target="_blank"
-            rel="noreferrer"
-            className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300"
-          >
-            Contact me <FiSend />
+            <a href="tel:+919696734338"  className="w-1/2 border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase  gap-2 hover:text-designColor duration-300"
+   >
+            <span className="w-full h-full flex justify-center items-center gap-2">
+              Contact me <BsTelephonePlusFill />
+              <span className="text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl absolute left-0 translate-x-8 group-hover:translate-x-12 opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
+                Call
+              </span>
+            </span>
           </a>
+          
         </div>
       </div>
     </div>
